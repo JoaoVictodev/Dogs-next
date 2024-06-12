@@ -20,15 +20,9 @@ export function TOKEN_VALIDADE_POST(token) {
   };
 }
 
-export function USER_GET(token) {
+export function USER_GET() {
   return {
     url: API_URL + "/api/user",
-    options: {
-      method: "GET",
-      headers: {
-        Authorization: "Bearer " + token,
-      },
-    },
   };
 }
 
@@ -38,16 +32,9 @@ export function USER_POST() {
   };
 }
 
-export function PHOTO_POST(formData, token) {
+export function PHOTO_POST() {
   return {
     url: API_URL + "/api/photo",
-    options: {
-      method: "POST",
-      headers: {
-        Authorization: "Bearer " + token,
-      },
-      body: formData,
-    },
   };
 }
 
