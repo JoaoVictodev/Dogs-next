@@ -3,7 +3,7 @@
 import { useFormState, useFormStatus } from "react-dom";
 import Button from "@/components/forms/button";
 import Input from "../forms/input";
-import ErrorMessage from "../forms/error-message";
+import ErrorMessage from "../helper/error-message";
 import React from "react";
 import styles from "./login-form.module.css";
 import passwordReset from "@/actions/password-reset";
