@@ -2,7 +2,7 @@
 
 import React from "react";
 import PhotoCommentsForm from "./photo-comments-form";
-import styles from "./photo-comments-form.module.css";
+import styles from "./photo-comments.module.css";
 import { useUser } from "@/context/use-context";
 import { Comment } from "@/actions/photo-get";
 
