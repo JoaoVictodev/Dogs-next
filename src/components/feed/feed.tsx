@@ -1,6 +1,6 @@
 "use client";
 
-import photosGEt, { Photo } from "@/actions/photo-get";
+import photosGEt, { Photo } from "@/actions/photos-get";
 import FeedPhotos from "./feed-photos";
 import React from "react";
 import Loading from "@/components/helper/loading";

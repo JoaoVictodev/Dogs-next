@@ -1,4 +1,4 @@
-import photosGEt from "@/actions/photo-get";
+import photosGEt from "@/actions/photos-get";
 import userGet from "@/actions/user-get";
 import Feed from "@/components/feed/feed";
 import Link from "next/link";
