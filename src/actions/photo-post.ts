@@ -24,7 +24,7 @@ export default async function photoPost(state: {}, formData: FormData) {
       },
       body: formData,
     });
-    if (!response.ok) throw new Error("");
+    if (!response.ok) throw new Error("Email ou usuario já cadastrado");
   } catch (err: unknown) {
     return apiError(err);
   }

@@ -1,4 +1,4 @@
-import { Photo } from "@/actions/photo-get";
+import { Photo } from "@/actions/photos-get";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./feed.module.css";
